@@ -359,8 +359,8 @@ if exists("g:DoxygenToolkit_commentType")
     let g:DoxygenToolkit_startCommentTag = "/// "
     let g:DoxygenToolkit_interCommentTag = "/// "
     let g:DoxygenToolkit_endCommentTag = ""
-    let g:DoxygenToolkit_startCommentBlock = "// "
-    let g:DoxygenToolkit_interCommentBlock = "// "
+    let g:DoxygenToolkit_startCommentBlock = "/// "
+    let g:DoxygenToolkit_interCommentBlock = "/// "
     let g:DoxygenToolkit_endCommentBlock = ""
   else
     let g:DoxygenToolkit_commentType = "C"
